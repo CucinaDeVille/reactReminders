@@ -5,7 +5,7 @@ import AddControl from './AddControl';
 
 export default function App(){
 
-    const initialTodos = [{ text: "Einkaufen", done: false },{ text: "Lernen", done: false }];
+    const initialTodos = [];
 
     const [todos, setTodos] = useState(initialTodos);
 
